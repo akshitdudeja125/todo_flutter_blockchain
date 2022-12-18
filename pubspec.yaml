@@ -1,0 +1,44 @@
+name: todo_flutter_blockchain
+description: A new Flutter project.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.5 <3.0.0'
+
+flutter_icons:
+  android: 'launcher_icon'
+  ios: true
+  image_path: 'assets/logos/tasks.jpg'
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  curved_navigation_bar: ^1.0.3
+  flutter:
+    sdk: flutter
+  flutter_dotenv: ^5.0.2
+  flutter_launcher_icons: ^0.11.0
+  fluttertoast: ^8.1.2
+  get: ^4.6.5
+  http: ^0.13.4
+  navigation_action_bar: ^0.0.1
+  provider: ^6.0.2
+  shared_preferences: ^2.0.15
+  web3dart: ^2.3.5
+  web_socket_channel: ^2.2.0
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+  test: ^1.21.4
+# dependency_overrides:
+#   firebase_core_platform_interface: 4.5.2
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/logos/
+    - src/artifacts/
+    - .env
